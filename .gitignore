@@ -4,6 +4,7 @@
 .gradle
 build/
 build/sample/
+bin/
 
 # Keep gradle wrapper
 !gradle-wrapper.jar
