@@ -22,19 +22,19 @@ class OdrdConfiguration {
 
   // Set to service account with the Fleet Engine Super User role.
   public static final String SERVER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "backend@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Consumer SDK role.
   public static final String CONSUMER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "tracking-app@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Driver SDK role.
   public static final String DRIVER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "driver-app@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
 
   // Provider Id is the same as your GCP Project Id.
-  public static final String PROVIDER_ID = "<project id>";
+  public static final String PROVIDER_ID = "ancoris-maps-partner-toolkit";
 
   // Endpoint of the Fleet Engine address.
   // In most cases, the default of fleetengine.googleapis.com:443 is correct

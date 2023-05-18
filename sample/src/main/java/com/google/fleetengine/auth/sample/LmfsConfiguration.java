@@ -7,26 +7,26 @@ public class LmfsConfiguration {
 
   // Set to service account with the Fleet Engine Delivery Super User SDK role.
   public static final String DELIVERY_SERVER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "backend@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Delivery Consumer User SDK role.
   public static final String DELIVERY_CONSUMER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "tracking-app@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Delivery Untrusted Driver SDK role.
   public static final String DELIVERY_UNTRUSTED_DRIVER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "driver-app@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Delivery Trusted Driver SDK role.
   public static final String DELIVERY_TRUSTED_DRIVER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "trusted-driver-app@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Set to service account with the Fleet Engine Delivery Fleet Read SDK role.
   public static final String DELIVERY_FLEET_READER_TOKEN_ACCOUNT =
-      "<service account name>@<project id>.iam.gserviceaccount.com";
+      "fleet-tracking@ancoris-maps-partner-toolkit.iam.gserviceaccount.com";
 
   // Provider Id is the same as your GCP Project Id.
-    public static final String PROVIDER_ID = "<project id>";
+    public static final String PROVIDER_ID = "ancoris-maps-partner-toolkit";
 
     // Endpoint of the Fleet Engine address.
     // In most cases, the default of fleetengine.googleapis.com:443 is correct
